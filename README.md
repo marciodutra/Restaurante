@@ -16,15 +16,43 @@ Abraçando o espírito de colaboração e partilha de conhecimento, tenho o praz
 Começar 💻 💻
 Pronto para embarcar numa viagem de inovação e criatividade? Visite o repositório GitHub para aceder ao código-fonte completo e mergulhar no mundo do desenvolvimento web moderno. Explore, aprenda e reimagine - as possibilidades são ilimitadas.
 
-Repositório do GitHub: [https://github.com/ShariarSheikh/resturant-website]
+Repositório do GitHub: [https://github.com/marciodutra/Restaurante.git]
 
-Sinta-se à vontade para se ligar a mim no [LinkedIn](https://www.linkedin.com/in/sheikhshariar/) para partilhar as suas ideias e experiências
 
 ## Executar na sua máquina
 
 ### Pré-requisitos
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
- 1. Baixe um
+ 1. Execute em sua máquina
+Pré-requisitos
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-Traduzido com a versão gratuita do tradutor - DeepL.com
+Baixe e instale o Node.js em nodejs.org.
+Certifique-se de ter o npm instalado em sua máquina.
+
+
+Clone o repositório
+
+https://github.com/marciodutra/Restaurante.git
+
+Instale dependências
+Navegue até o diretório do projeto usando o seguinte comando:
+
+cd [nome do projeto]
+
+Instale as dependências do projeto usando npm:
+
+npm install
+
+Execute o servidor de desenvolvimento
+Depois que as dependências estiverem instaladas, inicie o servidor de desenvolvimento:
+
+npm run dev
+
+Isso iniciará o servidor de desenvolvimento Next.js. Abra seu navegador e acesse http://localhost:3000 para ver a visualização ao vivo do site de demonstração.
+
+Explorar e personalizar Sinta-se à vontade para explorar as diferentes páginas e componentes do site de demonstração nos diretórios de páginas e componentes. Adapte o conteúdo, os estilos e a funcionalidade de acordo com sua visão criativa.
+
+
+
