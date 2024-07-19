@@ -22,7 +22,7 @@ const Feed: FC<IProps> = ({
     <div className="mt-[80px] max-w-[628px] w-full overflow-hidden overflow-y-scroll">
       <div ref={startersRef} className="w-full px-[10px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
-          Starters
+          Entradas
         </h1>
         {menuData.starters.map((item) => (
           <div
@@ -54,7 +54,7 @@ const Feed: FC<IProps> = ({
       </div>
       <div ref={breakfastRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
-          Breakfast
+          Café da manhã
         </h1>
         {menuData.breakfast.map((item) => (
           <div
@@ -87,7 +87,7 @@ const Feed: FC<IProps> = ({
       </div>
       <div ref={dinnerRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
-          Dinner
+          Jantar
         </h1>
         {menuData.dinner.map((item) => (
           <div
@@ -120,7 +120,7 @@ const Feed: FC<IProps> = ({
       </div>
       <div ref={drinksRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
-          Drinks
+          Bebidas
         </h1>
         {menuData.drinks.map((item) => (
           <div

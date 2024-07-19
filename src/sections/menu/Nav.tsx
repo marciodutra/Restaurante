@@ -23,25 +23,25 @@ const Nav: FC<IProps> = ({
         onClick={() => navigationHandler(startersRef)}
         className="font-light text-[#FACE8D]"
       >
-        Starters
+       Entradas
       </button>
       <button
         onClick={() => navigationHandler(breakfastRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
       >
-        Breakfast
+        Café da manhã
       </button>
       <button
         onClick={() => navigationHandler(dinnerRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
       >
-        Dinner
+        Jantar
       </button>
       <button
         onClick={() => navigationHandler(drinksRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
       >
-        Drinks
+        Bebidas
       </button>
     </div>
   );

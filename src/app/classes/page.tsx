@@ -19,7 +19,7 @@ export default function Classes() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Restaurante Giftty</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
@@ -46,10 +46,10 @@ export default function Classes() {
               }}
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center text-center h-full min-h-screen">
-              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Asian</h1>
-              <h3 className="text-[40px]">Delicious Breakfast</h3>
+              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Brasil</h1>
+              <h3 className="text-[40px]">Delicioso café da manhã</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
@@ -64,11 +64,11 @@ export default function Classes() {
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center h-full min-h-screen">
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">
-                Breakfast
+                Café da manhã
               </h1>
-              <h3 className="text-[40px]">Coffee Time</h3>
+              <h3 className="text-[40px]">Hora do café</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
@@ -82,10 +82,10 @@ export default function Classes() {
               }}
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center h-full min-h-screen">
-              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Vegan</h1>
-              <h3 className="text-[40px]">Vegan Burger</h3>
+              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Vegano</h1>
+              <h3 className="text-[40px]">Hamburger vegano</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
@@ -100,11 +100,11 @@ export default function Classes() {
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center h-full min-h-screen">
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">
-                Italian
+                Italia
               </h1>
-              <h3 className="text-[40px]">Salad Style</h3>
+              <h3 className="text-[40px]">Estilo Salada</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
@@ -119,11 +119,11 @@ export default function Classes() {
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center h-full min-h-screen">
               <h1 className="text-[#FACE8D] font-dancing text-[64px]">
-                Italian
+                Italia
               </h1>
-              <h3 className="text-[40px]">Homemade Honey</h3>
+              <h3 className="text-[40px]">Mel Caseiro</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
@@ -137,17 +137,17 @@ export default function Classes() {
               }}
             />
             <div className="fixed inset-0 flex flex-col items-center justify-center h-full min-h-screen">
-              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Asian</h1>
-              <h3 className="text-[40px]">Delicious Breakfast</h3>
+              <h1 className="text-[#FACE8D] font-dancing text-[64px]">Asia</h1>
+              <h3 className="text-[40px]">Delicioso café da manhã</h3>
               <p className="text-[13px] text-white text-opacity-50">
-                June 16, 2023
+                19 de julho de 2024.
               </p>
             </div>
           </SwiperSlide>
         </Swiper>
         <div className="w-full max-w-[520px] min-h-screen flex flex-col justify-between items-center fixed bottom-[30px] left-[1%] py-10 z-10">
           <Link href="/" className="font-semibold cursor-pointer">
-            Hukka Bukka
+            Giftty
           </Link>
           <NavigationFooter />
         </div>

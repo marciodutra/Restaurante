@@ -27,13 +27,13 @@ const BookATableSection: FC = () => {
         className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
       >
         <Link href="/" className="font-semibold cursor-pointer">
-          Hukka Bukka
+        Giftty
         </Link>
         <div className="text-center">
           <h2 className="text-[#FACE8D] font-dancing text-[80px] leading-none">
-            Check Out
+            Confira
           </h2>
-          <h1 className="font-medium text-[80px] leading-none">Our Menus</h1>
+          <h1 className="font-medium text-[80px] leading-none">Nossos cardápios</h1>
         </div>
 
         <NavigationFooter />
@@ -41,10 +41,10 @@ const BookATableSection: FC = () => {
 
       <div className="w-full lg:w-[50%] flex flex-col justify-center h-auto lg:px-0 px-4 lg:py-0 py-6">
         <div className="max-w-[560px] h-auto mx-auto w-full">
-          <h2 className="text-[40px] font-medium">Book a table</h2>
+          <h2 className="text-[40px] font-medium">Reservar uma mesa</h2>
           <p className="text-white text-opacity-50 text-[20px] mt-[16px]">
-            Our dining atmosphere is casual and comfortable. To reflect this
-            environment, we maintain a formal dress.
+          Nosso ambiente gastronômico é casual e confortável. Para refletir isso
+          ambiente, mantemos um traje formal.
           </p>
 
           <form
@@ -53,15 +53,15 @@ const BookATableSection: FC = () => {
             }}
             className="mt-[48px]"
           >
-            <h3 className="text-white text-opacity-50 text-[16px]">Name</h3>
+            <h3 className="text-white text-opacity-50 text-[16px]">Nome</h3>
             <input
               type="text"
               className="h-[60px] bg-black mt-[16px] w-full px-[24px] py-[15px] border border-[#FFFFFF] border-opacity-50 rounded-[10px]"
-              placeholder="Name"
+              placeholder="Nome"
             />
 
             <h3 className="text-white text-opacity-50 mt-[48px] text-[16px]">
-              Number of guests
+               Número de convidados
             </h3>
             <input
               type="number"
@@ -72,7 +72,7 @@ const BookATableSection: FC = () => {
             />
             <div className="mt-[48px] flex justify-between">
               <div className="w-full max-w-[40%]">
-                <h3 className="text-white text-opacity-50 text-[16px]">Date</h3>
+                <h3 className="text-white text-opacity-50 text-[16px]">Data</h3>
                 <input
                   type="date"
                   value={currentDate}
@@ -80,7 +80,7 @@ const BookATableSection: FC = () => {
                 />
               </div>
               <div className="w-full max-w-[40%]">
-                <h3 className="text-white text-opacity-50 text-[16px]">Date</h3>
+                <h3 className="text-white text-opacity-50 text-[16px]">Data</h3>
                 <input
                   type="time"
                   value={currentTime}
@@ -89,7 +89,7 @@ const BookATableSection: FC = () => {
               </div>
             </div>
             <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
-              Book A Table
+              Reservar uma mesa
             </button>
           </form>
         </div>

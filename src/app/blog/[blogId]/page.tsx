@@ -63,7 +63,7 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
             className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
           >
             <Link href="/" className="font-semibold cursor-pointer">
-              Hukka Bukka
+              Giftty
             </Link>
             <div className="text-center">
               <h2 className="text-[#FACE8D] font-dancing text-[50px] lg:text-[80px] leading-none">
@@ -78,16 +78,10 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
           </div>
 
           <div className="w-full lg:w-[50%] pt-[96px] h-screen overflow-hidden overflow-y-scroll px-4 lg:px-[80px]">
-            <h2 className="text-[24px]">Lorem ipsum dolor</h2>
+            <h2 className="text-[24px]">Menu de degustação</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+            O menu degustação passeia por uma história de interior, mas ao mesmo tempo em apresentações
+             mais atuais e sofisticadas
             </p>
 
             <div className="w-full h-[300px] relative mt-[48px] rounded-[10px] overflow-hidden">
@@ -99,31 +93,18 @@ const Page: NextPage<PageProps> = ({ params }: PageProps) => {
               />
             </div>
 
-            <h2 className="text-[24px] mt-[48px]">Lorem ipsum dolor</h2>
+            <h2 className="text-[24px] mt-[48px]">Menu de inverno</h2>
             <p className="text-white text-[16px] text-opacity-50 mt-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+              Batizado de “Abrindo caminhos”, menu de inverno estará disponível nos meses de julho,
+               agosto e setembro
               <br />
               <br />
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient
+                Pela primeira vez a Melhor Chef Mulher do Mundo em 2024 pelo The World’s 50 Best Restaurants,
+               apresenta um menu degustação.
               <br />
               <br />
-              Eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Integer malesuada nunc vel risus commodo viverra maecenas. Dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies.
-              Placerat duis ultricies lacus sed turpis. Vel elit scelerisque
-              mauris pellentesque pulvinar pellentesque habitant morbi
-              tristique. Turpis massa sed elementum tempus egestas sed sed
-              risus.
+                Batizada de Abrindo Caminhos, Torres criou uma rota dos sabores brasileiros,
+              com referências migratórias e ingredientes nacionais.
             </p>
 
             <div className="px-[50px]">

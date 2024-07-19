@@ -32,14 +32,14 @@ const MenuSection: FC = () => {
         className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-[80vh] md:min-h-screen h-full"
       >
         <Link href="/" className="font-semibold cursor-pointer">
-          Hukka Bukka
+        Giftty
         </Link>
         <div className="text-center">
           <h2 className="text-[#FACE8D] font-dancing text-[50px] md:text-[80px] leading-none">
-            Check Out
+            Confira
           </h2>
           <h1 className="font-medium text-[50px] md:text-[80px] leading-none">
-            Our Menus
+           Nossos cardápios
           </h1>
         </div>
 

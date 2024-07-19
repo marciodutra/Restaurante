@@ -8,34 +8,33 @@ import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Feed = () => {
   return (
     <div className="mt-[80px] max-w-[628px] w-full overflow-hidden overflow-y-scroll">
-      <p className="text-[16px] text-white text-opacity-50">Cooking Class</p>
-      <h1 className="mt-[8px] text-[40px]">Reserve Your Spot</h1>
+      <p className="text-[16px] text-white text-opacity-50">Aula de culinária</p>
+      <h1 className="mt-[8px] text-[40px]">Reserve seu lugar</h1>
       <p className="text-[16px] text-white text-opacity-50 mt-[16px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Porttitor massa id
-        neque aliquam.
+      Local magnífico, sem dúvidas o melhor restaurante de Porto Alegre. Pratos sofisticados e um atendimento
+       sensacional e de extrema qualidade.
       </p>
 
       <div className="flex items-center mt-[32px] mb-[80px]">
         <button className="h-[60px] rounded-[50px] w-[181px] bg-[#F8D49E] uppercase text-black active:scale-95 duration-150">
-          Book A Spot
+          Reserve uma vaga
         </button>
-        <p className="ml-[32px] text-[24px]">89€</p>
+        <p className="ml-[32px] text-[24px]">R$89,00</p>
       </div>
       <div className="w-full px-[10px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none">
-          Details
+          Detalhes
         </h1>
 
         <ul className="mt-[32px]">
           <li className="flex items-center justify-between h-[80px] border-b border-[#171717]">
-            <h4 className="text-[20px] font-medium">Date</h4>
+            <h4 className="text-[20px] font-medium">Data</h4>
             <p className="text-[18px] text-white text-opacity-50">
-              June 16, 2023 8:00 PM
+              19 de julho de 2024 8:00 
             </p>
           </li>
           <li className="flex items-center justify-between h-[80px] border-b border-[#171717]">
-            <h4 className="text-[20px] font-medium">Teacher</h4>
+            <h4 className="text-[20px] font-medium">Professor</h4>
             <div className="flex items-center">
               <Image
                 src={
@@ -52,13 +51,13 @@ const Feed = () => {
             </div>
           </li>
           <li className="flex items-center justify-between h-[80px] border-b border-[#171717]">
-            <h4 className="text-[20px] font-medium">Language</h4>
-            <p className="text-[18px] text-white text-opacity-50">English</p>
+            <h4 className="text-[20px] font-medium">Linguagem</h4>
+            <p className="text-[18px] text-white text-opacity-50">Português</p>
           </li>
           <li className="flex items-center justify-between h-[80px]">
-            <h4 className="text-[20px] font-medium">Location</h4>
+            <h4 className="text-[20px] font-medium">Localização</h4>
             <p className="text-[18px] text-white text-opacity-50">
-              Hukka Bukka.Bangladesh, Dhaka, Street 1234
+              Giftty.Porto Alegre - Cel. Genuíno, 342.
             </p>
           </li>
         </ul>
@@ -97,7 +96,7 @@ const Feed = () => {
       </div>
 
       <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px] mt-[80px]">
-        Teacher
+        Professor
       </h1>
       <div className="flex items-center mt-[32px] w-full">
         <div className="min-w-[80px] min-h-[80px] overflow-hidden relative bg-green-500 rounded-full">
@@ -110,11 +109,10 @@ const Feed = () => {
           />
         </div>
         <div className="flex flex-col ml-[32px]">
-          <h1 className="text-[24px]">Shariar Sheikh</h1>
+          <h1 className="text-[24px]">Chef Gourmet</h1>
           <p className="text-[16px] mt-[4px] text-white text-opacity-50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            neque quis consequuntur odio sed placeat illo tempore harum, est
-            nesciunt.
+          Descubra técnicas avançadas e segredos da gastronomia. Torne-se um expert na cozinha. 
+          Quer se tornar um chef? Encontre cursos que abrangem do básico ao avançado.
           </p>
           <div className="flex items-center mt-[20px] space-x-4">
             <Link

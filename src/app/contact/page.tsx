@@ -22,7 +22,7 @@ export default function BookATable() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Restaurante Giftty</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
@@ -36,14 +36,14 @@ export default function BookATable() {
             className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
           >
             <Link href="/" className="font-semibold cursor-pointer">
-              Hukka Bukka
+                Giftty
             </Link>
             <div className="text-center">
               <h2 className="text-[#FACE8D] font-dancing text-[80px] leading-none">
-                Contact
+                Contato
               </h2>
               <h1 className="font-medium text-[80px] leading-none">
-                Get in Touch
+                Entrar em contato
               </h1>
             </div>
 
@@ -53,9 +53,7 @@ export default function BookATable() {
           <div className="w-full lg:w-[50%] flex flex-col justify-center h-auto px-4 pb-4 lg:px-0 lg:pb-0">
             <div className="max-w-[560px] h-auto mx-auto w-full">
               <p className="text-white text-opacity-50 text-[20px] mt-[16px]">
-                Volutpat maecenas volutpat blandit aliquam etiam erat velit
-                scelerisque. Arcu non odio euismod lacinia. Tortor aliquam nulla
-                facilisi cras fermentum odio eu.
+              Estamos na Rua Coronel Genuíno, 342 - Centro - Porto Alegre/RS. Variado Cardápio. Local Agradável.
               </p>
 
               <form
@@ -64,11 +62,11 @@ export default function BookATable() {
                 }}
                 className="mt-[48px]"
               >
-                <h3 className="text-white text-opacity-50 text-[16px]">Name</h3>
+                <h3 className="text-white text-opacity-50 text-[16px]">Nome</h3>
                 <input
                   type="text"
                   className="h-[60px] bg-black mt-[16px] w-full px-[24px] py-[15px] border border-[#FFFFFF] border-opacity-50 rounded-[10px]"
-                  placeholder="Name"
+                  placeholder="Nome"
                 />
 
                 <h3 className="text-white text-opacity-50 mt-[48px] text-[16px]">
@@ -80,15 +78,15 @@ export default function BookATable() {
                   placeholder="Email"
                 />
                 <h3 className="text-white text-opacity-50 mt-[48px] text-[16px]">
-                  Message
+                  Menssagem
                 </h3>
                 <textarea
-                  placeholder="Message"
+                  placeholder="Menssagem"
                   className="min-h-[120px] max-h-[200px] bg-black mt-[16px] w-full px-[24px] py-[15px] border border-[#FFFFFF] border-opacity-50 rounded-[10px]"
                 />
 
                 <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
-                  Book A Table
+                  Reservar uma mesa
                 </button>
               </form>
             </div>

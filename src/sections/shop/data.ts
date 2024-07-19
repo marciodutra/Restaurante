@@ -7,36 +7,36 @@ const data: {
 }[] = [
   {
     id: 1,
-    title: "Gift Card Light",
+    title: "Cartão presente",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    price: "$ 15 USD",
+      "Escolha entre os melhores Vales Presente do maior portfólio virtual do mercado! Na Giftty você encontra as maiores marcas para oferecer a melhor experiência e variedade.",
+    price: "R$15,00",
     logoBg: "#5446A7",
   },
 
   {
     id: 2,
-    title: "Gift Card Standard",
+    title: "Padrão de vale-presente",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    price: "$ 30 USD",
+      "O seu cliente tem a opção de enviar o cartão presente da sua marca através do WhatsApp e outras redes sociais.",
+    price: "R$30,00",
     logoBg: "#981318",
   },
 
   {
     id: 3,
-    title: "Gift Card Premium",
+    title: "Vale-presente premium",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    price: "$ 50 USD",
+      "Turbine a sua Campanha de Incentivos com a melhor Experiência de premiação e resgate do mercado!",
+    price: "R$50,00",
     logoBg: "#222222",
   },
   {
     id: 4,
-    title: "Gift Card Gold",
+    title: "Vale-presente Ouro",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit eo ut vitae neque sed sed sit sagittis tristique scelerisque.",
-    price: "$ 100 USD",
+      "Com o Vale Presente Ouro - To Cook você presenteia qualquer aniversariante, casamento, casa nova sem ter a obrigação de saber o que comprar.",
+    price: "R$100,00",
     logoBg: "#E3C79E",
   },
 ];

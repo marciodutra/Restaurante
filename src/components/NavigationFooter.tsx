@@ -33,7 +33,7 @@ const NavigationFooter: React.FC = () => {
               href="restaurant"
               className="h-[48px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] hover:bg-gray-100"
             >
-              Restaurant
+              Restaurante
             </Link>
           </li>
           <li className="hidden sm:block">
@@ -49,7 +49,7 @@ const NavigationFooter: React.FC = () => {
               href="book-a-table"
               className="h-[48px] font-medium text-[14px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] text-white bg-black uppercase"
             >
-              Book A Table
+              Reservar uma mesa
             </Link>
           </li>
         </ul>
@@ -82,7 +82,7 @@ const NavigationFooter: React.FC = () => {
             <li className="mb-[16px] block md:hidden">
               <Link href="/restaurant">
                 <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Restaurant
+                  Restaurante
                 </div>
               </Link>
             </li>
@@ -98,7 +98,7 @@ const NavigationFooter: React.FC = () => {
             <li className="mb-[16px]">
               <Link href="/shop">
                 <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Shop
+                Comprar
                 </div>
               </Link>
             </li>
@@ -119,7 +119,7 @@ const NavigationFooter: React.FC = () => {
             <li className="mb-[16px]">
               <Link href="/contact">
                 <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Contact
+                  Contato
                 </div>
               </Link>
             </li>
