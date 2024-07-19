@@ -1,6 +1,4 @@
-<p align=“center”>
-  <img src=“https://i.ibb.co/vLNJ62z/Untitled-design.png” height=“320” width=“640” title=“Imagem do projeto”>
-</p>
+
 
 🌟 Demonstração de site inspirador: Dê poder à sua criatividade 🌟
 
